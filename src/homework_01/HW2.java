@@ -7,7 +7,7 @@ public class HW2{
 		calcEvenNumProductW(1,10);
 		calcSquareList();
 		lotterySelect(1,49);
-		drawNumTri();
+		drawNumTri(10);
 		drawABCTri('A','F');
 		testNineNine ();
 	}
@@ -100,8 +100,7 @@ public class HW2{
 //		1 2 3
 //		1 2
 //		1
-	public static void drawNumTri () {
-		int triNum = 10;
+	public static void drawNumTri (int triNum) {
 		for (int i = triNum ; i >= 1 ; i--) {
 			for(int j = 1 ; j <= i ; j++) {
 				System.out.print(j+" ");
