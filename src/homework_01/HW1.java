@@ -33,7 +33,7 @@ public class HW1 {
 //		• 某人在銀行存入150萬,銀行利率為2%,如果每年利息都繼續存入銀行,請用程式計算10年後,本
 //		金加利息共有多少錢 (用複利計算,公式請自行google)
 	 public static int calcRate(int value ,double rate, int year){
-		 System.out.println(year+"年後，本金加利息為"+Math.round(value*(float)Math.pow((1+rate),year)));
+		 System.out.println(year+"年後，本金加利息為"+Math.round(value*(float)Math.pow((1+rate),year))+"元");
 		 return Math.round(value*(float)Math.pow((1+rate),year));
 	 }
 //		• 請寫一隻程式,利用System.out.println()印出以下三個運算式結果:
